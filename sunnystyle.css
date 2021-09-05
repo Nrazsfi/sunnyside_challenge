@@ -1,5 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: font-family: 'Fraunces', serif;
+    font-family: 'Fraunces', serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    margin: 0;
+    background-image: url("images/desktop/image-header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+nav {
+    width: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+
+
+#btnHamburger {
+    outline: none;
+    border: none;
+}
+
+
+.nav_right {
+    list-style-type: none;
+
+}
+
+ul li {
+    display: inline-block;
+    align-items: flex-end;
+}
+
+li,
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .attribution {

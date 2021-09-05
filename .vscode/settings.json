@@ -1,0 +1,7 @@
+{
+	"files.autoSave": "afterDelay",
+	"editor.bracketPairColorization.enabled": true,
+	"editor.insertSpaces": false,
+	"editor.largeFileOptimizations": false,
+	"editor.lightbulb.enabled": false
+}
